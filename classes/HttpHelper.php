@@ -6,14 +6,36 @@ use GuzzleHttp\Client;
 
 class HttpHelper
 {
-    public $client;
-    public function __construct()
-    {
-        $this->client = new Client();
-        $this->client->request(
-            'GET', [
-                'base_uri' => 'https://api.crypto-scanner.io/v1/',
-            ]
-        );
-    }
+//    public $client;
+//    public $url;
+//    public $method;
+//
+//    public function __construct()
+//    {
+//        $this->client = new Client();
+//    }
+//
+//    public function request(): void
+//    {
+//        $this->client->request(
+//            $this->method,
+//            $this->url,
+//            [
+//                'http_errors' => false,
+//                'allow_redirects' => false,
+//                'timeout' => 60,
+//                'sslverify' => false,
+//
+//            ],
+//        );
+//    }
+//
+//    public function setUrl ($url) {
+//        $this->url = $url;
+//    }
+//
+//    public function setMethod($method)
+//    {
+//        $this->method = $method;
+//    }
 }

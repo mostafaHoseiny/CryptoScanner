@@ -1,0 +1,1 @@
+2024-07-31 15:34:16 > ERROR > ["classes\\scanners\\TronScan\\Statistics","getStatistics",27,"cannot get data with api: https:\/\/api.tronscanapi.com\/api\/block\/statistic?randomNum=0.8298443045221746 http_request_failed"]

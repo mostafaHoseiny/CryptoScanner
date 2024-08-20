@@ -11,6 +11,7 @@
 */
 
 use CryptoScanner\SCNR;
+use \eftec\bladeone\BladeOne;
 
 //use CryptoScanner\ActiveDeactivate;
 
@@ -27,6 +28,7 @@ const SCNR_RESOURCES_URL = SCNR_ROOT_URL.'resources';
 const SCNR_VIEWS_DIR = SCNR_RESOURCES_DIR.'/views';
 const SCNR_STORAGE_DIR = SCNR_ROOT_DIR.'storage';
 const SCNR_CACHE_DIR = SCNR_STORAGE_DIR.'/cache';
+const SCNR_LOG_DIR = SCNR_STORAGE_DIR.'/logs/';
 const SCNR_VERSION = 0.1;
 
 require_once __DIR__.'/vendor/autoload.php';
